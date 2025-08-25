@@ -1,11 +1,11 @@
-# ⏱️ FSM-Based Pattern-Triggered Programmable Timer
+# FSM-Based Pattern-Triggered Programmable Timer
 
 This project implements a **programmable digital timer** in **Verilog HDL**, built step by step from smaller modules into a complete design.  
 It demonstrates the integration of **finite state machines (FSMs)**, **sequence detection**, **shift registers**, and **counters** to achieve a configurable delay mechanism.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 The timer works as follows:
 
 1. **Pattern Detection**  
@@ -33,7 +33,7 @@ The timer works as follows:
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 - ✅ Sequence detection FSM (`1101`)  
 - ✅ Shift register for programmable delay loading  
 - ✅ Down counter with 1000-cycle granularity  
@@ -43,7 +43,7 @@ The timer works as follows:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - **Shift Register (Component 1):** Serial load & decrement logic  
 - **Sequence Detector FSM (Component 2):** Detects `1101` pattern  
 - **FSM Delay Control (Component 3):** Enables shifting for 4 cycles  
@@ -52,12 +52,8 @@ The timer works as follows:
 
 ---
 
-## 🧩 Applications
+## Applications
 - Digital stopwatch/timer units  
 - Configurable delay circuits  
 - Introductory **FSM + counter design** project for learning Verilog  
 
----
-
-## 📜 License
-This project is open-source and free to use for educational purposes.

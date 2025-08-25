@@ -1,0 +1,3 @@
+This is the second component in a series of project that builds a complex counter out of several smaller circuits. See the final exercise for the overall design.
+
+Built a finite-state machine that searches for the sequence 1101 in an input bit stream. When the sequence is found, it should set start_shifting to 1, forever, until reset. Getting stuck in the final state is intended to model going to other states in a bigger FSM that is not yet implemented. This will be extended this FSM in the next steps.

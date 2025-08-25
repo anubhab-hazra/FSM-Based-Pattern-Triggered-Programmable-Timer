@@ -1,4 +1,4 @@
-module top_module (
+module shift_reg (
     input clk,
     input shift_ena,
     input count_ena,
